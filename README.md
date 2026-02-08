@@ -74,19 +74,11 @@ The benchmark was carefully designed to be CPU-bound:
 | **Kernel Build Result** | SUCCESS | Link failed | — |
 | **Kernel Peak RSS** | 831 MB | 1,952 MB | 2.3x |
 | **SQLite Compile (-O0 vs -O0)** | 64.6s | 87.0s | **1.3x slower** |
-| **SQLite Compile (-O2 vs -O2)** | 7m23s | 1m27s | 0.2x ⚠️ |
 | **SQLite Binary Size** | 1.55 MB / 1.40 MB | 4.27 MB / 4.27 MB | 2.7-3.0x |
 | **SQLite Runtime (-O0)** | 10.3s | **2h06m** | **737x** |
 | **SQLite Runtime (-O2)** | 6.1s | **2h06m** | **1,242x** |
 | **Compiler Memory** | 272 MB | 1,616 MB | 5.9x |
 | **Crash Tests** | 5/5 pass | 5/5 pass | |
-
-### ⚠️ The "0.2x Compile Time" Is Misleading
-
-The table above shows CCC compiling SQLite 5x faster than GCC at `-O2`. **This is misleading.** Here's why:
-
-- **GCC `-O2` does real work**: loop unrolling, function inlining, dead code elimination, vectorization, strength reduction — hundreds of optimization passes that take 7 minutes.
-- **CCC ignores the `-O2` flag entirely**: It runs the exact same 15 SSA passes regardless of what `-O` flag you give it. The binary output is byte-identical for `-O0`, `-O1`, `-O2`, and `-O3`. (means no optimization capability at all)
 
 The **fair comparison** is CCC vs GCC at `-O0` (no optimization): **CCC takes 87s vs GCC's 65s — CCC is 1.3x slower.** The "5x faster" number only appears because GCC is doing 7 minutes of optimization work that CCC simply skips.
 
@@ -171,13 +163,13 @@ CCC-compiled SQLite is functionally correct — it produces the same query resul
 
 ### Crash & Correctness Tests
 
-| Test | GCC | CCC |
-|------|-----|-----|
-| NULL handling | | |
-| Large BLOB (1MB) | | |
-| Recursive CTE (Fibonacci) | | |
-| Unicode strings | | |
-| Integer overflow | | |
+No failures observed during below tests
+
+- NULL handling
+- Large BLOB (1MB)
+- Recursive CTE (Fibonacci)
+- Unicode strings
+- Integer overflow
 
 ---
 
