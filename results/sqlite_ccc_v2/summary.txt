@@ -1,0 +1,16 @@
+compile_O0_wall: 1:27.03
+compile_O0_max_rss_kb: 1654848
+compile_O0_user_time: 80.19
+compile_O0_sys_time: 6.53
+speed_O0_wall: 2:06:05
+speed_O0_max_rss_kb: 9824
+speed_O0_user_time: 7518.61
+speed_O0_sys_time: 2.98
+compile_O2_wall: 1:27.17
+compile_O2_max_rss_kb: 1655468
+compile_O2_user_time: 79.86
+compile_O2_sys_time: 6.91
+speed_O2_wall: 2:05:37
+speed_O2_max_rss_kb: 10456
+speed_O2_user_time: 7514.50
+speed_O2_sys_time: 1.74

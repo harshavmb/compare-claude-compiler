@@ -1,0 +1,7 @@
+sqlite3_O0_bytes: 4374024
+sqlite3_O2_bytes: 4374024
+sqlite3_O0_stripped_bytes: 4373992
+sqlite3_O2_stripped_bytes: 4373992
+peak_rss_kb_runtime_O2: 9732
+crash_tests_total: 5
+crash_tests_failed: 0

@@ -1,0 +1,70 @@
+{
+  "kernel": {
+    "gcc": {
+      "wall_clock_seconds": 4391.0,
+      "wall_clock_human": "73.2 min",
+      "user_time_seconds": 22781.52,
+      "system_time_seconds": 1602.37,
+      "peak_rss_mb": 831.44921875,
+      "cpu_percent": "555",
+      "build_succeeded": true,
+      "build_failed_at": null,
+      "cc_files_compiled": 2844,
+      "linker_errors": 0
+    },
+    "ccc": {
+      "wall_clock_seconds": 2548.03,
+      "wall_clock_human": "42.5 min",
+      "user_time_seconds": 11536.99,
+      "system_time_seconds": 2441.79,
+      "peak_rss_mb": 1951.95703125,
+      "cpu_percent": "548",
+      "build_succeeded": false,
+      "build_failed_at": "link",
+      "cc_files_compiled": 2844,
+      "linker_errors": 40784
+    }
+  },
+  "sqlite": {
+    "gcc": {
+      "O0": {
+        "compile_time_seconds": 64.62,
+        "compile_peak_rss_mb": 272.17578125,
+        "runtime_seconds": 10.26,
+        "runtime_peak_rss_mb": 7.3515625,
+        "binary_size_bytes": 1590968
+      },
+      "O2": {
+        "compile_time_seconds": 443.05,
+        "compile_peak_rss_mb": 370.20703125,
+        "runtime_seconds": 6.07,
+        "runtime_peak_rss_mb": 6.96875,
+        "binary_size_bytes": 1435640
+      },
+      "crash_tests": {
+        "total": 5,
+        "failed": 0
+      }
+    },
+    "ccc": {
+      "O0": {
+        "compile_time_seconds": 87.03,
+        "compile_peak_rss_mb": 1616.0625,
+        "runtime_seconds": 7565.0,
+        "runtime_peak_rss_mb": 9.59375,
+        "binary_size_bytes": 4374024
+      },
+      "O2": {
+        "compile_time_seconds": 87.17,
+        "compile_peak_rss_mb": 1616.66796875,
+        "runtime_seconds": 7537.0,
+        "runtime_peak_rss_mb": 10.2109375,
+        "binary_size_bytes": 4374024
+      },
+      "crash_tests": {
+        "total": 5,
+        "failed": 0
+      }
+    }
+  }
+}

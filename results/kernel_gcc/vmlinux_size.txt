@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+26448458	10370158	1773572	38592188	24cdebc	/home/vaultwarden/linux-6.9/vmlinux

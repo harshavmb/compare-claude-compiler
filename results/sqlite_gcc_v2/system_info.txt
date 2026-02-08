@@ -1,0 +1,9 @@
+hostname: gcc-compiler
+compiler_type: gcc
+cc_path: gcc
+cc_version: gcc (Debian 14.2.0-19) 14.2.0
+kernel: 6.12.57+deb13-amd64
+cpus: 6
+cpu_model: QEMU Virtual CPU version 2.5+
+total_ram_kb: 16382680
+date: 2026-02-06T21:57:52+01:00

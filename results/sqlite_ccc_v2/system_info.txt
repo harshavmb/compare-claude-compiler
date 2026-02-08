@@ -1,0 +1,9 @@
+hostname: claude-compiler
+compiler_type: ccc
+cc_path: /home/vaultwarden/ccc_wrapper.sh
+cc_version: ccc (Claude's C Compiler, GCC-compatible) 14.2.0
+kernel: 6.12.57+deb13-amd64
+cpus: 6
+cpu_model: QEMU Virtual CPU version 2.5+
+total_ram_kb: 16382712
+date: 2026-02-06T22:07:22+01:00

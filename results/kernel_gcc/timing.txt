@@ -1,0 +1,16 @@
+wall_clock_time: 11
+max_rss_kb: 851404
+minor_page_faults: 17505833
+major_page_faults: 97
+voluntary_ctx_switches: 80744
+involuntary_ctx_switches: 799693
+cpu_percent: 555%
+user_time_sec: 22781.52
+system_time_sec: 1602.37
+fs_inputs: 15344
+fs_outputs: 1653784
+compile_exit_code: 0
+vmlinux_bytes: 51334992
+vmlinux_stripped_bytes: 51238384
+total_object_files: 2926
+total_object_size_bytes: 101669096

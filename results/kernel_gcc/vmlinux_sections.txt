@@ -1,0 +1,79 @@
+
+/home/vaultwarden/linux-6.9/vmlinux:     file format elf64-x86-64
+
+Sections:
+Idx Name          Size      VMA               LMA               File off  Algn
+  0 .text         01200000  ffffffff81000000  0000000001000000  00200000  2**12
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .rodata       00631596  ffffffff82200000  0000000002200000  01400000  2**12
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .pci_fixup    000039e0  ffffffff828315a0  00000000028315a0  01a315a0  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  3 .tracedata    00000078  ffffffff82834f80  0000000002834f80  01a34f80  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  4 __ksymtab     0001359c  ffffffff82834ff8  0000000002834ff8  01a34ff8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  5 __ksymtab_gpl 000114e4  ffffffff82848594  0000000002848594  01a48594  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 __ksymtab_strings 0003d712  ffffffff82859a78  0000000002859a78  01a59a78  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  7 __init_rodata 00000030  ffffffff828971a0  00000000028971a0  01a971a0  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  8 __param       00005398  ffffffff828971d0  00000000028971d0  01a971d0  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 __modver      000003f0  ffffffff8289c568  000000000289c568  01a9c568  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 10 __ex_table    00003cf0  ffffffff8289c960  000000000289c960  01a9c960  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 11 .notes        00000054  ffffffff828a0650  00000000028a0650  01aa0650  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 12 .data         002ba2c0  ffffffff82a00000  0000000002a00000  01c00000  2**13
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 __bug_table   0001fc98  ffffffff82cba2c0  0000000002cba2c0  01eba2c0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 14 .orc_header   00000014  ffffffff82cd9f58  0000000002cd9f58  01ed9f58  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 15 .orc_unwind_ip 00201634  ffffffff82cd9f6c  0000000002cd9f6c  01ed9f6c  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 16 .orc_unwind   0030214e  ffffffff82edb5a0  0000000002edb5a0  020db5a0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 17 .orc_lookup   00048004  ffffffff831dd6f0  00000000031dd6f0  023dd6ee  2**0
+                  ALLOC
+ 18 .vvar         00001000  ffffffff83226000  0000000003226000  02426000  2**4
+                  CONTENTS, ALLOC, LOAD, DATA
+ 19 .data..percpu 0002eca8  0000000000000000  0000000003227000  02600000  2**12
+                  CONTENTS, ALLOC, LOAD, DATA
+ 20 .init.text    0006e793  ffffffff83256000  0000000003256000  02656000  2**5
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 21 .altinstr_aux 00002b86  ffffffff832c4793  00000000032c4793  026c4793  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 22 .init.data    000a76d8  ffffffff832c8000  00000000032c8000  026c8000  2**13
+                  CONTENTS, ALLOC, LOAD, DATA
+ 23 .x86_cpu_dev.init 00000028  ffffffff8336f6d8  000000000336f6d8  0276f6d8  2**3
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .retpoline_sites 00010314  ffffffff8336f700  000000000336f700  0276f700  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .return_sites 00040d98  ffffffff8337fa18  000000000337fa18  0277fa18  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .call_sites   000dc750  ffffffff833c07b0  00000000033c07b0  027c07b0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .ibt_endbr_seal 0000d374  ffffffff8349cf00  000000000349cf00  0289cf00  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .altinstructions 00008f10  ffffffff834aa278  00000000034aa278  028aa278  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .altinstr_replacement 00002584  ffffffff834b3188  00000000034b3188  028b3188  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 30 .apicdrivers  00000010  ffffffff834b5710  00000000034b5710  028b5710  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 31 .exit.text    00003a79  ffffffff834b5720  00000000034b5720  028b5720  2**4
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 32 .smp_locks    0000c000  ffffffff834ba000  00000000034ba000  028ba000  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 33 .data_nosave  00001000  ffffffff834c6000  00000000034c6000  028c6000  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 34 .bss          00139000  ffffffff834c7000  00000000034c7000  028c7000  2**12
+                  ALLOC
+ 35 .brk          00030000  ffffffff83600000  0000000003600000  028c7000  2**0
+                  ALLOC
+ 36 .comment      0000001f  0000000000000000  0000000000000000  028c7000  2**0
+                  CONTENTS, READONLY
